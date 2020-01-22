@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************************************************************************************/
+
+*{
+    box-sizing: border-box;
+}
+
+/*********************feuille de style**************************************/
+
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif
+
+
+}
+
+#conteneur {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+header {
+    width: 1000px;
+    height: 90px;
+}
+
+p {
+    font-size: 10px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .aide {
+    margin-top: 10px;
+    text-align: center;
+    margin:0 auto
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+    margin-top: 3px;
+    margin: 0 auto;
+}
+
+section .vetement{
+    background: #fff;
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+section .secu {
+    background: #fff;
+    width: 175px;
+    height: 150px;
+    float: left;
+}
+
+section .camion {
+    background: #fff;
+    height: 150px;
+    width: 180px;
+    float: right;
+}
+
+.numero{
+    font-size: 20px;
+    color: #6acafc;
+    position: relative;
+   
+
+}
+
+
+section .bandeau{
+    margin:0 auto
+}
+
+section .maboutique {
+    background: #fff;
+    margin: 0 auto;
+    height: 150px;
+    width: 645px;
+    display: inline-block;
+
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*****************************navigation*****************************************/
+
+nav {
+    background: #33ccff;
+    height: 20px;
+    padding: 15px;
+    border-bottom: 15px solid #33ccff;
+    text-align: center;
+}
+nav a {
+    margin: 10px;
+    padding:2px 10px;
+    border-radius: 10px 0px;
+    border: 2px solid #fff;
+    background: #6acafc;
+
+    font-family: 'oswald', sans-serif, 'anton', sans-serif, 'lemonada', cursive;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+nav a:hover {
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+}
+.active{
+    background: #ff99cc;
+    color: #fff;
+}
